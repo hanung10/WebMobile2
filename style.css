@@ -1,4 +1,4 @@
-/* Aturan gaya untuk perangkat dengan lebar layar maksimal 768px (mobile & tablet kecil) */
+/* Mengatur gaya untuk perangkat dengan lebar layar (mobile & tablet kecil) */
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.5rem;
@@ -11,7 +11,7 @@
     }
 }
 
-/* Aturan gaya untuk perangkat dengan lebar layar di atas 768px (tablet besar & desktop) */
+/* Mengatur gaya untuk perangkat dengan lebar layar (tablet besar & desktop) */
 @media (min-width: 769px) {
     header h1 {
         font-size: 2.5rem;
@@ -24,7 +24,7 @@
     }
 }
 
-/* Gaya umum untuk elemen gambar agar responsif dan rata tengah */
+/* Mengatur gaya umum untuk elemen gambar agar responsif dan rata tengah */
 img {
     max-width: 100%;
     height: auto;
@@ -32,7 +32,7 @@ img {
     margin: auto;
 }
 
-/* Gaya utama untuk bagian hero dengan latar gambar, teks terang, dan posisi konten terpusat */
+/* Mengatur gaya utama untuk bagian latar gambar, teks, dan posisi konten */
 .hero-section {
     background-image: url('img/kampus.png');
     background-size: cover;
